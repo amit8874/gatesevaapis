@@ -1,9 +1,12 @@
 {
   "name": "gateseva-api",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
+  "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "build": "echo 'Nothing to build'",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
